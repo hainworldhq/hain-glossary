@@ -26,33 +26,91 @@ It is intended to support:
 
 ---
 
-## Scope
+## Reading order
 
-This glossary currently focuses on first-order terms that are already part of the active HAIN structure.
+If you are new to the glossary, read in this order:
 
-These include:
+1. [`terms/hain.md`](./terms/hain.md)
+2. [`terms/hybrid-ai-native.md`](./terms/hybrid-ai-native.md)
+3. [`terms/hain-world.md`](./terms/hain-world.md)
+4. [`terms/hainoa.md`](./terms/hainoa.md)
+5. [`terms/hainize.md`](./terms/hainize.md)
+6. [`terms/cloud.md`](./terms/cloud.md)
+7. [`terms/edge.md`](./terms/edge.md)
+8. [`terms/agentic-systems.md`](./terms/agentic-systems.md)
 
-- framework-level definitions
-- public-facing identity terms
-- architecture-layer terms
-- execution-environment terms
-- interpretation terms used across the whitepaper and websites
+Then continue with the second layer of terms:
+
+9. [`terms/public-facing-identity.md`](./terms/public-facing-identity.md)
+10. [`terms/open-architecture-layer.md`](./terms/open-architecture-layer.md)
+11. [`terms/toolkit-entry.md`](./terms/toolkit-entry.md)
+12. [`terms/orchestration.md`](./terms/orchestration.md)
+13. [`terms/locality.md`](./terms/locality.md)
+14. [`terms/structured-narrative-assets.md`](./terms/structured-narrative-assets.md)
 
 ---
 
-## Current structure
+## Term categories
 
 ### Core framework terms
-- `terms/hain.md`
-- `terms/hybrid-ai-native.md`
-- `terms/hain-world.md`
-- `terms/hainoa.md`
-- `terms/hainize.md`
+These define the HAIN system itself.
+
+- [`HAIN`](./terms/hain.md)
+- [`Hybrid AI Native`](./terms/hybrid-ai-native.md)
+- [`HAIN World`](./terms/hain-world.md)
+- [`HAINOA`](./terms/hainoa.md)
+- [`HAINIZE`](./terms/hainize.md)
 
 ### System landscape terms
-- `terms/cloud.md`
-- `terms/edge.md`
-- `terms/agentic-systems.md`
+These describe the execution environments and system conditions that shape the framework.
+
+- [`Cloud`](./terms/cloud.md)
+- [`Edge`](./terms/edge.md)
+- [`Agentic Systems`](./terms/agentic-systems.md)
+- [`Orchestration`](./terms/orchestration.md)
+- [`Locality`](./terms/locality.md)
+
+### Framework interpretation terms
+These help explain how the framework is structured and communicated.
+
+- [`Public-facing Identity`](./terms/public-facing-identity.md)
+- [`Open Architecture Layer`](./terms/open-architecture-layer.md)
+- [`Toolkit Entry`](./terms/toolkit-entry.md)
+- [`Structured Narrative Assets`](./terms/structured-narrative-assets.md)
+
+---
+
+## How to use this glossary
+
+This glossary should be treated as the terminology reference layer of the HAIN framework.
+
+Use it to:
+
+- keep wording consistent across websites and repositories
+- define terms before expanding them into larger documents
+- align public-facing descriptions with whitepaper language
+- reduce ambiguity when new terms are introduced
+
+Definitions here should remain concise, stable, and reusable.
+
+---
+
+## Relationship to the whitepaper
+
+The glossary is not separate from the whitepaper. It supports it.
+
+Use the glossary alongside the whitepaper in the following way:
+
+- Read [`HAIN Whitepaper`](../hain-whitepaper) for the broader narrative and structure
+- Use glossary entries to clarify key terms referenced in:
+  - `00-overview.md`
+  - `01-what-is-hain-world.md`
+  - `02-why-hybrid-ai-native.md`
+  - `03-framework-structure.md`
+  - `04-public-entry-points.md`
+
+The whitepaper explains the framework in sequence.  
+The glossary keeps its language consistent.
 
 ---
 
@@ -79,12 +137,13 @@ The goal is not to create a large dictionary. The goal is to maintain a clean an
 
 ---
 
-## Related repositories
+## Related repositories and entry points
 
-- HAIN World — public entry point
-- HAINOA — open architecture layer
-- HAINIZE — toolkit and developer-oriented direction
-- HAIN Whitepaper — structured narrative base
+- Main site: [hainworld.com](https://hainworld.com)
+- Short link: [hain.world](https://hain.world)
+- Architecture site: [hainoa.org](https://hainoa.org)
+- GitHub: [github.com/hainworldhq](https://github.com/hainworldhq)
+- Whitepaper repository: `hain-whitepaper`
 
 ---
 
