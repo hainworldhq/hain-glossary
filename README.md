@@ -12,7 +12,7 @@ Its purpose is to keep the HAIN system legible, internally consistent, and easie
 
 The HAIN framework depends on clear language.
 
-Without a shared vocabulary, concepts such as cloud, edge, agentic systems, public identity, architecture, and toolkit direction can easily become inconsistent across websites, repositories, and external materials.
+Without a shared vocabulary, concepts such as cloud, edge, agentic systems, public identity, architecture, toolkit direction, system landscape, and framework narrative can easily become inconsistent across websites, repositories, and external materials.
 
 This glossary exists to prevent that drift.
 
@@ -28,25 +28,38 @@ It is intended to support:
 
 ## Reading order
 
-If you are new to the glossary, read in this order:
+If you are new to the glossary, read in this order.
 
+### First layer: core framework terms
 1. [`terms/hain.md`](./terms/hain.md)
 2. [`terms/hybrid-ai-native.md`](./terms/hybrid-ai-native.md)
 3. [`terms/hain-world.md`](./terms/hain-world.md)
 4. [`terms/hainoa.md`](./terms/hainoa.md)
 5. [`terms/hainize.md`](./terms/hainize.md)
+
+### Second layer: system landscape terms
 6. [`terms/cloud.md`](./terms/cloud.md)
 7. [`terms/edge.md`](./terms/edge.md)
 8. [`terms/agentic-systems.md`](./terms/agentic-systems.md)
+9. [`terms/orchestration.md`](./terms/orchestration.md)
+10. [`terms/locality.md`](./terms/locality.md)
+11. [`terms/execution-environment.md`](./terms/execution-environment.md)
+12. [`terms/agentic-workflow.md`](./terms/agentic-workflow.md)
+13. [`terms/system-landscape.md`](./terms/system-landscape.md)
 
-Then continue with the second layer of terms:
-
-9. [`terms/public-facing-identity.md`](./terms/public-facing-identity.md)
-10. [`terms/open-architecture-layer.md`](./terms/open-architecture-layer.md)
-11. [`terms/toolkit-entry.md`](./terms/toolkit-entry.md)
-12. [`terms/orchestration.md`](./terms/orchestration.md)
-13. [`terms/locality.md`](./terms/locality.md)
-14. [`terms/structured-narrative-assets.md`](./terms/structured-narrative-assets.md)
+### Third layer: framework interpretation terms
+14. [`terms/public-facing-identity.md`](./terms/public-facing-identity.md)
+15. [`terms/open-architecture-layer.md`](./terms/open-architecture-layer.md)
+16. [`terms/toolkit-entry.md`](./terms/toolkit-entry.md)
+17. [`terms/structured-narrative-assets.md`](./terms/structured-narrative-assets.md)
+18. [`terms/architecture-core.md`](./terms/architecture-core.md)
+19. [`terms/umbrella-identity.md`](./terms/umbrella-identity.md)
+20. [`terms/principles.md`](./terms/principles.md)
+21. [`terms/conceptual-structure.md`](./terms/conceptual-structure.md)
+22. [`terms/public-entry-point.md`](./terms/public-entry-point.md)
+23. [`terms/toolkit-direction.md`](./terms/toolkit-direction.md)
+24. [`terms/structural-clarity.md`](./terms/structural-clarity.md)
+25. [`terms/framework-narrative.md`](./terms/framework-narrative.md)
 
 ---
 
@@ -62,21 +75,32 @@ These define the HAIN system itself.
 - [`HAINIZE`](./terms/hainize.md)
 
 ### System landscape terms
-These describe the execution environments and system conditions that shape the framework.
+These describe the environments, workflows, and operating conditions that shape the framework.
 
 - [`Cloud`](./terms/cloud.md)
 - [`Edge`](./terms/edge.md)
 - [`Agentic Systems`](./terms/agentic-systems.md)
 - [`Orchestration`](./terms/orchestration.md)
 - [`Locality`](./terms/locality.md)
+- [`Execution Environment`](./terms/execution-environment.md)
+- [`Agentic Workflow`](./terms/agentic-workflow.md)
+- [`System Landscape`](./terms/system-landscape.md)
 
 ### Framework interpretation terms
-These help explain how the framework is structured and communicated.
+These help explain how the framework is structured, presented, and extended.
 
 - [`Public-facing Identity`](./terms/public-facing-identity.md)
 - [`Open Architecture Layer`](./terms/open-architecture-layer.md)
 - [`Toolkit Entry`](./terms/toolkit-entry.md)
 - [`Structured Narrative Assets`](./terms/structured-narrative-assets.md)
+- [`Architecture Core`](./terms/architecture-core.md)
+- [`Umbrella Identity`](./terms/umbrella-identity.md)
+- [`Principles`](./terms/principles.md)
+- [`Conceptual Structure`](./terms/conceptual-structure.md)
+- [`Public Entry Point`](./terms/public-entry-point.md)
+- [`Toolkit Direction`](./terms/toolkit-direction.md)
+- [`Structural Clarity`](./terms/structural-clarity.md)
+- [`Framework Narrative`](./terms/framework-narrative.md)
 
 ---
 
@@ -101,8 +125,8 @@ The glossary is not separate from the whitepaper. It supports it.
 
 Use the glossary alongside the whitepaper in the following way:
 
-- Read [`HAIN Whitepaper`](../hain-whitepaper) for the broader narrative and structure
-- Use glossary entries to clarify key terms referenced in:
+- read `hain-whitepaper` for the broader narrative and structural sequence
+- use glossary entries to clarify key terms referenced across:
   - `00-overview.md`
   - `01-what-is-hain-world.md`
   - `02-why-hybrid-ai-native.md`
@@ -129,11 +153,11 @@ Definitions should describe how a term functions within the HAIN system, not onl
 
 ## Current status
 
-This glossary is an early working vocabulary for the HAIN framework.
+This glossary is an early but expanding working vocabulary for the HAIN framework.
 
-It should be expanded gradually and only when new terms are genuinely needed.
+It should continue to grow gradually and only when new terms genuinely improve clarity.
 
-The goal is not to create a large dictionary. The goal is to maintain a clean and usable conceptual system.
+The goal is not to create a large dictionary. The goal is to maintain a clean, usable, and coherent conceptual system.
 
 ---
 
@@ -151,4 +175,4 @@ The goal is not to create a large dictionary. The goal is to maintain a clean an
 
 The HAIN Glossary is the terminology layer of the HAIN framework.
 
-It provides a stable vocabulary for explaining what the framework is, how its layers relate to each other, and how cloud, edge, and agentic systems fit into one connected landscape.
+It provides a stable vocabulary for explaining what the framework is, how its layers relate to each other, how cloud, edge, and agentic systems fit into one connected landscape, and how the framework should be interpreted as it grows.
