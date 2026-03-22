@@ -1,5 +1,8 @@
 # HAIN Glossary Terms
 
+Version: v0.1  
+Status: Active term index
+
 This directory contains the working term set for the HAIN framework.
 
 These entries define the core vocabulary used across:
@@ -69,24 +72,44 @@ Then continue with the system landscape terms:
 6. [`cloud.md`](./cloud.md)
 7. [`edge.md`](./edge.md)
 8. [`agentic-systems.md`](./agentic-systems.md)
-9. [`execution-environment.md`](./execution-environment.md)
-10. [`agentic-workflow.md`](./agentic-workflow.md)
-11. [`system-landscape.md`](./system-landscape.md)
+9. [`orchestration.md`](./orchestration.md)
+10. [`locality.md`](./locality.md)
+11. [`execution-environment.md`](./execution-environment.md)
+12. [`agentic-workflow.md`](./agentic-workflow.md)
+13. [`system-landscape.md`](./system-landscape.md)
 
 Then move into the interpretation layer:
 
-12. [`public-facing-identity.md`](./public-facing-identity.md)
-13. [`open-architecture-layer.md`](./open-architecture-layer.md)
-14. [`architecture-core.md`](./architecture-core.md)
-15. [`umbrella-identity.md`](./umbrella-identity.md)
-16. [`public-entry-point.md`](./public-entry-point.md)
-17. [`toolkit-entry.md`](./toolkit-entry.md)
-18. [`toolkit-direction.md`](./toolkit-direction.md)
-19. [`principles.md`](./principles.md)
-20. [`conceptual-structure.md`](./conceptual-structure.md)
-21. [`structural-clarity.md`](./structural-clarity.md)
-22. [`framework-narrative.md`](./framework-narrative.md)
-23. [`structured-narrative-assets.md`](./structured-narrative-assets.md)
+14. [`public-facing-identity.md`](./public-facing-identity.md)
+15. [`open-architecture-layer.md`](./open-architecture-layer.md)
+16. [`architecture-core.md`](./architecture-core.md)
+17. [`umbrella-identity.md`](./umbrella-identity.md)
+18. [`principles.md`](./principles.md)
+19. [`conceptual-structure.md`](./conceptual-structure.md)
+20. [`public-entry-point.md`](./public-entry-point.md)
+21. [`toolkit-entry.md`](./toolkit-entry.md)
+22. [`toolkit-direction.md`](./toolkit-direction.md)
+23. [`structural-clarity.md`](./structural-clarity.md)
+24. [`framework-narrative.md`](./framework-narrative.md)
+25. [`structured-narrative-assets.md`](./structured-narrative-assets.md)
+
+---
+
+## Relationship to the whitepaper
+
+These term files are meant to be used alongside the whitepaper.
+
+- The whitepaper explains the framework in sequence.
+- The glossary stabilizes the language used across that sequence.
+- The FAQ compresses that language into faster public-facing explanations.
+
+If you need the broader system order first, start with:
+
+- [`hain-whitepaper/00-master-navigation.md`](https://github.com/hainworldhq/hain-whitepaper/blob/main/00-master-navigation.md)
+
+If you need the full narrative path, continue with:
+
+- [`hain-whitepaper`](https://github.com/hainworldhq/hain-whitepaper)
 
 ---
 
@@ -100,6 +123,19 @@ Each term in this directory should remain:
 - reusable across repositories and public-facing materials
 
 This directory should grow carefully. New terms should only be added when they improve clarity.
+
+---
+
+## Current status
+
+Current internal stage:
+
+**HAIN World v0.1 Public Foundation — Complete**
+
+Current content relationship:
+
+**Whitepaper v0.1 Core Draft — Active**  
+**Glossary v0.1 Terminology Layer — Active**
 
 ---
 
