@@ -1,5 +1,8 @@
 # HAIN Glossary
 
+Version: v0.1  
+Status: Active terminology layer
+
 A structured terminology repository for the HAIN framework.
 
 This repository captures the core concepts, definitions, and working vocabulary used across HAIN World, HAINOA, HAINIZE, and related public-facing materials.
@@ -114,6 +117,7 @@ Use it to:
 - define terms before expanding them into larger documents
 - align public-facing descriptions with whitepaper language
 - reduce ambiguity when new terms are introduced
+- support FAQ, overview, and external explanation materials
 
 Definitions here should remain concise, stable, and reusable.
 
@@ -126,15 +130,24 @@ The glossary is not separate from the whitepaper. It supports it.
 Use the glossary alongside the whitepaper in the following way:
 
 - read `hain-whitepaper` for the broader narrative and structural sequence
+- start with [`00-master-navigation.md`](https://github.com/hainworldhq/hain-whitepaper/blob/main/00-master-navigation.md) for the top-level system map
 - use glossary entries to clarify key terms referenced across:
   - `00-overview.md`
   - `01-what-is-hain-world.md`
   - `02-why-hybrid-ai-native.md`
   - `03-framework-structure.md`
   - `04-public-entry-points.md`
+  - `05-working-principles.md`
+  - `06-system-landscape.md`
+  - `07-architecture-direction.md`
+  - `08-narrative-and-public-structure.md`
+  - `09-terminology-and-interpretation.md`
+  - `10-toolkit-direction-and-practical-entry.md`
+  - `11-faq.md`
 
 The whitepaper explains the framework in sequence.  
-The glossary keeps its language consistent.
+The glossary keeps its language consistent.  
+The FAQ provides a compressed public-facing explanation layer built from the whitepaper and glossary together.
 
 ---
 
@@ -159,6 +172,15 @@ It should continue to grow gradually and only when new terms genuinely improve c
 
 The goal is not to create a large dictionary. The goal is to maintain a clean, usable, and coherent conceptual system.
 
+Current internal stage:
+
+**HAIN World v0.1 Public Foundation — Complete**
+
+Current content relationship:
+
+**Whitepaper v0.1 Core Draft — Active**  
+**Glossary v0.1 Terminology Layer — Active**
+
 ---
 
 ## Related repositories and entry points
@@ -166,8 +188,9 @@ The goal is not to create a large dictionary. The goal is to maintain a clean, u
 - Main site: [hainworld.com](https://hainworld.com)
 - Short link: [hain.world](https://hain.world)
 - Architecture site: [hainoa.org](https://hainoa.org)
-- GitHub: [github.com/hainworldhq](https://github.com/hainworldhq)
-- Whitepaper repository: `hain-whitepaper`
+- GitHub organization: [github.com/hainworldhq](https://github.com/hainworldhq)
+- Whitepaper repository: [hain-whitepaper](https://github.com/hainworldhq/hain-whitepaper)
+- Master navigation: [`00-master-navigation.md`](https://github.com/hainworldhq/hain-whitepaper/blob/main/00-master-navigation.md)
 
 ---
 
